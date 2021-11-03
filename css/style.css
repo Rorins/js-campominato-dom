@@ -1,0 +1,74 @@
+/*General settings*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+/*Header*/
+.toolbar {
+  background-color: white;
+  padding: 16px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header div:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  padding-left: 20px;
+}
+/*Main*/
+.wrap-grid h2 {
+  text-align: center;
+}
+
+/*Classi da usare nel Grid*/
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 500px;
+  margin: 60px auto;
+  border: 2px solid black;
+}
+
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  cursor: pointer;
+}
+.safe,
+.bomb {
+  color: white;
+  cursor: default;
+}
+
+.safe {
+  background-color: #6495ed;
+}
+
+.bomb {
+  background-color: rgb(207, 110, 110);
+}
+
+/*Footer*/
+footer {
+  background-color: white;
+  padding: 16px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
